@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#191970
+    , #4B0082);
+    overflow-y: hidden;
+}
+
+.character-container{
+    display:flex;
+    width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    min-height: 700px;
+    margin-top: 7%;
+    border-radius: 25px;
+}
+
+.person-container{
+    flex: 1;  
+}
+
+.farmer{
+    background-color: chartreuse;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-image: url('../img/farmer.jpg');
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+.girl-startup{
+    background-color: crimson;
+    
+}
+
+.boy-startup{
+    background-color: darkorange;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
